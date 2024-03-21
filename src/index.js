@@ -1,5 +1,5 @@
 import * as FlexPlugin from '@twilio/flex-plugin';
 
-import TwilioTestPlugin from './TwilioTestPlugin';
+import AutomaticTaskAcceptancePlugin from './AutomaticTaskAcceptancePlugin';
 
-FlexPlugin.loadPlugin(TwilioTestPlugin);
+FlexPlugin.loadPlugin(AutomaticTaskAcceptancePlugin);

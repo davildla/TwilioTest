@@ -11,6 +11,8 @@ cd
 
 # If you use npm
 npm install
+
+rename .env.example to .env
 ```
 
 Next, please install the [Twilio CLI](https://www.twilio.com/docs/twilio-cli/quickstart) by running:
@@ -27,5 +29,8 @@ twilio plugins:install @twilio-labs/plugin-flex
 
 ## Development
 
-Run `twilio flex:plugins --help` to see all the commands we currently support. For further details on Flex Plugins refer to our documentation on the [Twilio Docs](https://www.twilio.com/docs/flex/developer/plugins/cli) page.
-
+to start dev env run : 
+```
+npm start dev
+```
+and then visit : http://localhost:3000/

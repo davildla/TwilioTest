@@ -1,9 +1,11 @@
 {
-  "name": "TwilioTest",
+  "name": "AutomaticTaskAcceptance",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "flex-plugin pre-script-check"
+    "postinstall": "flex-plugin pre-script-check",
+    "dev" : "twilio flex:plugins:start"
+
   },
   "dependencies": {
     "@twilio/flex-plugin-scripts": "6.3.2",
